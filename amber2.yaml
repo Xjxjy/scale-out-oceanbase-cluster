@@ -1,7 +1,7 @@
 # Only need to configure when remote login is required
 user:
-  username: root
-  password: Test44ob
+  username: amber
+  password: amber
 #   key_file: your ssh-key file path if need
 #   port: your ssh port, default 22
 #   timeout: ssh connection timeout (second), default 30
