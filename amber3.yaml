@@ -82,8 +82,8 @@ oceanbase-ce:
     redo_dir: /redo/ob
     zone: zone3
   z4:
-    mysql_port: 2881 # External port for OceanBase Database. The default value is 2881.
-    rpc_port: 2882 # Internal port for OceanBase Database. The default value is 2882.
+    mysql_port: 3881 # External port for OceanBase Database. The default value is 2881.
+    rpc_port: 3882 # Internal port for OceanBase Database. The default value is 2882.
     #  The working directory for OceanBase Database. OceanBase Database is started under this directory. This is a required field.
     home_path: /home/admin/oceanbase/ob2
     # The directory for data storage. The default value is $home_path/store.
@@ -92,8 +92,8 @@ oceanbase-ce:
     redo_dir: /redo/ob2
     zone: zone1
   z5:
-    mysql_port: 2881 # External port for OceanBase Database. The default value is 2881.
-    rpc_port: 2882 # Internal port for OceanBase Database. The default value is 2882.
+    mysql_port: 3881 # External port for OceanBase Database. The default value is 2881.
+    rpc_port: 3882 # Internal port for OceanBase Database. The default value is 2882.
     #  The working directory for OceanBase Database. OceanBase Database is started under this directory. This is a required field.
     home_path: /home/admin/oceanbase/ob2
     # The directory for data storage. The default value is $home_path/store.
@@ -102,8 +102,8 @@ oceanbase-ce:
     redo_dir: /redo/ob2
     zone: zone2
   z6:
-    mysql_port: 2881 # External port for OceanBase Database. The default value is 2881.
-    rpc_port: 2882 # Internal port for OceanBase Database. The default value is 2882.
+    mysql_port: 3881 # External port for OceanBase Database. The default value is 2881.
+    rpc_port: 3882 # Internal port for OceanBase Database. The default value is 2882.
     #  The working directory for OceanBase Database. OceanBase Database is started under this directory. This is a required field.
     home_path: /home/admin/oceanbase/ob2
     # The directory for data storage. The default value is $home_path/store.
