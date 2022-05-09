@@ -74,7 +74,11 @@ oceanbase-ce:
     # The directory for clog, ilog, and slog. The default value is the same as the data_dir value.
     redo_dir: /redo/ob
     zone: zone3
-obproxy:
+obproxy-ce:
+  # Set dependent components for the component.
+  # When the associated configurations are not done, OBD will automatically get the these configurations from the dependent components.
+  depends:
+    - oceanbase-ce
   servers:
     - 172.30.198.252
   global:
